@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Italiano Restaurant</title>
+</head>
+<style>
+    
+
+    
+    .navbar{
+            background-color:grey;
+            
+            position:fixed;
+            top:0px;
+            left:0px;
+            z-index:9999;
+            width:100%;
+            height:100px;
+           
+            
+        }
+        .navbar ul{   /*isko likhe bina nav bar mein blue colour nhi aayega */
+            overflow: auto;
+            
+        }
+        .navbar li{
+            float:right;  /*isse sab el line mein aa gaye */
+            list-style: none;   /*isse bullets hat gaye li wale */
+            margin: 13px 20px;
+            position:relative;
+            bottom:17px;
+            
+        }
+        .navbar li a{
+            padding: 3px 3px;
+            text-decoration: none; /* home,service links etc . ke neeche se underline htane ke liye */
+            color: white; /*Home,service etc. ko white bnane ke liye */
+        }
+        .navbar li a:hover{       /*jab hover kre links ke upar*/
+            color: red
+        }
+        .navbar li #f{
+         float:left;
+        }
+        .w3{
+        position:relative;
+        }
+        .w3text{
+           position: absolute;
+           top:0px;
+
+        }
+       .w3text h1{
+        font-size:40px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .j{
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            color: grey;
+            
+            height:700px;
+        }
+        .box{
+            width:450px;
+            height:450px;
+            position: relative;
+            top:25%;
+            overflow-wrap: break-word;
+            text-align: center;
+           
+            font-size:small;
+        }
+        #box2{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+           overflow-wrap: break-word;
+        }
+        .menu{
+            
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            color:gray;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            height:700px;
+        
+        }
+        .png{
+            height:500px;
+            width:500px;
+            
+        }
+        h1{
+            text-align: center;
+            color:black;
+        }
+        footer{
+            text-align: center;
+            
+        }
+        .logo{
+
+       font-size: 40px;
+       position:relative;
+       top:30px;
+       left:2%;
+       color:aliceblue;
+
+}      
+</style>
+<body>
+    <div class="w3">
+        <nav class="navbar" style="letter-spacing:4px;">
+            <div class="logo">Gourmet au Catering</div>
+          <!-- Right-sided navbar links. Hide them on small screens -->
+               <!--to make navigation menu-->
+                <ul>    
+                    
+                    
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#contact">Contact us</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+        
+      
+
+      <header class="w3" style="max-width:1600px;min-width:500px" id="home">
+        <img class="w3-image" src="https://sesamorestaurant.com/wp-content/uploads/2022/02/Traditional-Italian-Cuisine.jpg" alt="Hamburger Catering" width="1500" height="800">
+        <div class="w3text">
+          <h1><strong>Le Catering</strong> </h1>
+        </div>
+      </header>
+      <div class="j">
+        <div class="box" id="box1">
+        <img src="https://c.ndtvimg.com/2021-04/umk8i7ko_pasta_625x300_01_April_21.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=886" alt="" srcset="" width="400" height="400">
+        </div>
+
+
+            <div class="box" id="box2">
+                <h1 >About Catering</h1><br>
+             <h5>Tradition since 1889</h5>
+                
+                The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients.
+                
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            
+        </div>
+      
+     </div>
+      <!-- Menu Section -->
+     <div class="menu">
+        <div class="png" id="png1">
+            <h1 class="w3-center"  >Our Menu</h1><br>
+            <ul>
+                <li><h3>WINE COOKIE TURDILLI.............$3</h3></li>
+                <li><h3>SHRIMP WITH PEAR.......$5</h3></li>
+                <li><h3>PIZZA......$2.3</h3></li>
+                <li><h3>LASAGNE.....$2</h3></li>
+                <li><h3>RAVIOLI......$1.5</h3></li>
+              
+            </ul>
+     </div>
+     <div class="png" id="png2">
+        <img src="https://www.ferraroslasvegas.com/wp-content/uploads/2019/06/gettyimages-858260538.jpg" alt="" srcset="" width="500" height="500">
+         <!-- Contact Section --></div>
+         </div>
+        
+       
+        <div class="contact">
+            <h1>Contact Us</h1><br>
+            <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+            <p class="w3-text-blue-grey w3-large"><b>Catering Service, 42nd Living St, 43043 New York, NY</b></p>
+    <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+    <form action="backened.php">
+        <label for="name"></label>
+        <p><input type="text" placeholder="Name" required name="Name"></p>
+        <p><input type="text" placeholder="Address" required name="People"></p>
+        <p><input type="number" placeholder="How many people" required name="People"></p>
+        <p><input  type="datetime-local" placeholder="Date and time" required name="date" ></p>
+        <p><input type="text" placeholder="Contact no:" required name="Contact no"></p>
+        <div>
+            <!--can emit writing id since not required here-->
+            <!--text area is used to input paragraphs-->
+           Message:
+           <br>
+           <textarea name="mytext"  cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <!-- just type input type  from here intellisense will complete-->
+            <!--here we are submitting the form-->
+            <input type="submit" value="submit now">
+           
+        </div>
+        </form>
+        <hr>
+        </div>
+        <!--footer-->
+        <footer>
+            <!-- Copyrights -->
+    <div class="bg-light py-4">
+        <div class="container text-center">
+          <p class="text-muted mb-0 py-2">© 2023 Italiano Restaurant All rights reserved.</p>
+        </div>
+      </div>
+    
+        </footer>
+</body>
+</html>
